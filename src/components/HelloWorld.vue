@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     
-    <div class="columns">
-      <div class="column">
-        <article class="message">
+    <div class="columns ">
+      <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
+        <article class="message px-5 py-2">
           <div class="message-header">
             <p>Hello World</p>
             <button class="delete" aria-label="delete"></button>

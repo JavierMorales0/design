@@ -23,4 +23,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html, body{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+
 </style>
