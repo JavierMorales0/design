@@ -1,11 +1,15 @@
 <template>
   <div>
+<<<<<<< HEAD
     <AppSlider :slides="slides" />
     <div class="element">
       <p class="text-muted display-4">
         Hello
       </p>
     </div>
+=======
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+>>>>>>> f94d7c443b2e5d4bd1019cb0dd6ece1ab6880831
   </div>
 </template>
 
