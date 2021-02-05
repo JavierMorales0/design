@@ -1,25 +1,27 @@
 <template>
   <div id="app">
-    <NavBar/>
-    <transition enter-active-class="slideInLeft"
-        leave-active-class="slideOutRight" mode="out-in">
-      <router-view/>
-    </transition> 
+    <!--<NavBar />-->
+    <transition
+      enter-active-class="slideInLeft"
+      leave-active-class="slideOutRight"
+      mode="out-in"
+    >
+      <router-view />
+    </transition>
   </div>
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
+//import NavBar from "@/components/NavBar.vue";
 export default {
-  components:{
-    NavBar
+  components: {
+    //NavBar,
   }
-}
+};
 </script>
 
 <style lang="scss">
-
-*{
-  font-family: 'Quicksand', sans-serif;
+* {
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
