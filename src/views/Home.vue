@@ -1,10 +1,29 @@
 <template>
-  <div>
+  <div class="home">
     <AppSlider :slides="slides" />
     <div class="element">
       <p class="text-muted display-4">
         Hello
       </p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="ul">
+              <li>Elemento de la lista</li>
+            </div>
+          </div>
+          <div class="col">
+            <div class="ul">
+              <li>Elemento de la lista</li>
+            </div>
+          </div>
+          <div class="col">
+            <div class="ul">
+              <li>Elemento de la lista</li>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -43,4 +62,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.home{
+  width: 100%;
+}
+</style>

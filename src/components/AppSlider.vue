@@ -56,7 +56,7 @@ export default {
   height: 100vh;
   background-color: #ccc;
   scroll-snap-type: y mandatory;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .slider__content {
@@ -64,6 +64,7 @@ export default {
   background-position: center;
   background-size: cover;
   scroll-snap-align: center;
+  scroll-snap-stop: normal;
   color: white;
   display: flex;
   justify-content: center;
