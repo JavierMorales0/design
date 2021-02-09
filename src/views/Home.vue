@@ -1,40 +1,16 @@
 <template>
   <div class="home">
-    <AppSlider :slides="slides" />
-    <div class="element">
-      <p class="text-muted display-4">
-        Hello
-      </p>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="ul">
-              <li>Elemento de la lista</li>
-            </div>
-          </div>
-          <div class="col">
-            <div class="ul">
-              <li>Elemento de la lista</li>
-            </div>
-          </div>
-          <div class="col">
-            <div class="ul">
-              <li>Elemento de la lista</li>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Slider :slides="slides" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import AppSlider from "@/components/AppSlider";
+import Slider from "@/components/Slider";
 export default {
   name: "Home",
   components: {
-    AppSlider,
+    Slider
   },
   mounted() {},
   data() {
@@ -42,18 +18,18 @@ export default {
       slides: [
         {
           image:
-            "https://images.unsplash.com/photo-1483000805330-4eaf0a0d82da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-          text: "Consola",
+            "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          text: "JALEX",
         },
         {
           image:
-            "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-          text: "Guitarra acústica",
+            "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          text: "Designing and programming.",
         },
         {
           image:
-            "https://images.unsplash.com/photo-1462965326201-d02e4f455804?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-          text: "Guitarra Electrica",
+            "https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+          text: "UES",
         },
       ],
     };
