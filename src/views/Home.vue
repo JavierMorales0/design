@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" style="width:100%">
     <AppSlider :slides="slides" />
     <div class="element">
       <p class="text-muted display-4">
