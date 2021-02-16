@@ -1,16 +1,18 @@
 <template>
   <div class="home">
-    <Slider :slides="slides" />
+    <!--<Slider :slides="slides" />-->
+    <Design/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Slider from "@/components/Slider";
+//import Slider from "@/components/Slider";
+import Design from "@/components/Design";
 export default {
   name: "Home",
   components: {
-    Slider
+    Design
   },
   mounted() {},
   data() {
