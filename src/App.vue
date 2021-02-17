@@ -32,6 +32,9 @@ html, body{
   max-width: 100%;
 }
 
-
+#app{
+  background-color: #202020;
+  color: #fff;
+}
 
 </style>

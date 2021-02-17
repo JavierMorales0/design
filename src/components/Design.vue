@@ -8,7 +8,22 @@
       />
     </div>
     <div v-else>
-      <p>Cargado</p>
+      <div class="logo-container">
+        <img src="../assets/Logo-dark.svg" alt="Logo IO" />
+      </div>
+      <section class="main-section">
+        <p class="display-2 text-center">Design IO</p>
+        <hr style="background-color: #202020" />
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit labore
+          molestias beatae ducimus porro fuga velit voluptatibus, sint sunt iure
+          expedita dolorem dolorum ab iusto provident debitis molestiae error
+          eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Laboriosam impedit deleniti quam iusto dolore eius quibusdam
+          distinctio dolorum a. Molestiae omnis modi repellendus, ad aliquid
+          quos nisi ipsum laudantium inventore.
+        </p>
+      </section>
     </div>
   </div>
 </template>
@@ -29,10 +44,30 @@ export default {
 </script>
 <style>
 .charging {
-    height:100vh;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.logo-container > img {
+  width: 50%;
+  height: 50vh;
+}
+
+.main-section {
+  padding: 3rem 14rem;
+  background-color: #ffdb6c;
+  color: #202020;
+  border-radius: 0px 35px 0px 0px;
 }
 </style>
